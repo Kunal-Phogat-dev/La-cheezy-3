@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Cheezy – Freshly Baked Pizzas &amp; Burgers in Ganesh Nagar</title>
+
+  <!-- SEO META TAGS -->
+  <meta name="description" content="La Cheezy – Ganesh Nagar's favourite spot for cheesy pizzas, juicy burgers &amp; combos. Freshly baked daily. Order now: 8149204979. Dine-in, takeaway &amp; home delivery." />
+  <meta name="keywords" content="pizza in Ganesh Nagar, cheesy pizza Ganesh Nagar, La Cheezy, burger Ganesh Nagar, fast food Ganesh Nagar, Cheese Burst Pizza, Paneer Pizza, food delivery Ganesh Nagar" />
+  <meta name="author" content="La Cheezy" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://la-cheezy-3.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="La Cheezy – Freshly Baked Pizzas &amp; Burgers in Ganesh Nagar" />
+  <meta property="og:description" content="Hot, fresh, ridiculously cheesy pizzas &amp; burgers. Baked daily in Ganesh Nagar. Order now!" />
+  <meta property="og:image" content="images/hero-pizza.jpg" />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "La Cheezy",
+    "image": "https://la-cheezy-3.vercel.app/images/hero-pizza.jpg",
+    "description": "La Cheezy – Ganesh Nagar's favourite spot for cheesy pizzas, juicy burgers and combos. Freshly baked daily.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Opposite Ganesh Mandir, Ganesh Nagar, Bopkhel",
+      "addressLocality": "Pune",
+      "addressRegion": "Maharashtra",
+      "postalCode": "411031",
+      "addressCountry": "IN"
+    },
+    "telephone": "+918149204979",
+    "url": "https://la-cheezy-3.vercel.app",
+    "servesCuisine": ["Pizza", "Burger", "Fast Food"],
+    "priceRange": "₹80–₹319",
+    "openingHours": "Mo-Su 11:30-22:30",
+    "hasMap": "https://maps.google.com/?q=La+Cheezy+Ganesh+Nagar+Pune",
+    "sameAs": ["https://instagram.com/lacheezypizza"]
+  }
+  </script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" /></noscript>
+
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav role="banner">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">La <span>Cheezy</span> 🍕</a>
+    <ul class="nav-links" role="navigation" aria-label="Main navigation">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#offers">Offers</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- ORDER NOW BUTTON + POPUP -->
+    <div class="order-btn-wrap">
+      <button class="nav-cta" id="orderNowBtn" aria-haspopup="true" aria-expanded="false" type="button">📞 Order Now</button>
+      <div class="order-popup" id="orderPopup" role="menu" aria-label="Order options">
+        <p class="order-popup-title">How do you want to order?</p>
+        <a href="tel:8149204979" class="order-option" role="menuitem">
+          <span class="order-icon">📞</span>
+          <div>
+            <p class="order-option-label">Call Us</p>
+            <p class="order-option-sub">8149204979</p>
+          </div>
+        </a>
+        <a href="tel:9975964979" class="order-option" role="menuitem">
+          <span class="order-icon">📞</span>
+          <div>
+            <p class="order-option-label">Call Us</p>
+            <p class="order-option-sub">9975964979</p>
+          </div>
+        </a>
+        <a href="https://wa.me/918149204979?text=Hi%20La%20Cheezy!%20I%20want%20to%20place%20an%20order%20%F0%9F%8D%95"
+           target="_blank" rel="noopener" class="order-option order-option-wa" role="menuitem">
+          <span class="order-icon">💬</span>
+          <div>
+            <p class="order-option-label">WhatsApp Order</p>
+            <p class="order-option-sub">Chat to order</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- MOBILE HAMBURGER -->
+    <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" type="button">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" aria-label="Hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">🔥 Ganesh Nagar's Favourite Pizza Spot</div>
+      <h1 class="hero-title">
+        Freshly Baked Pizzas<br />Gooey <span>Cheese</span><br />Made with Love
+      </h1>
+      <p class="hero-sub">
+        Welcome to La Cheezy – Ganesh Nagar's Favourite Spot for Cheesy Pizzas, Burgers &amp; More!
+      </p>
+      <div class="hero-btns">
+        <a href="#menu"          class="btn-primary">🍕 View Menu</a>
+        <a href="#offers"        class="btn-secondary">🔥 Today's Offers</a>
+        <a href="tel:8149204979" class="btn-call">📞 8149204979</a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="images/hero-pizza.jpg"
+           alt="La Cheezy signature Cheese Burst Pizza with epic cheese pull – Ganesh Nagar"
+           width="500" height="500"
+           fetchpriority="high" loading="eager" decoding="async" />
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section section-alt">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="images/about-kitchen.jpg"
+             alt="La Cheezy kitchen – freshly baked pizzas being made in Ganesh Nagar"
+             width="600" height="450" loading="lazy" decoding="async" />
+        <div class="about-badge-float">🧀 Baked Fresh<br />Every Day</div>
+      </div>
+      <div>
+        <span class="tag">About Us</span>
+        <h2 class="section-title">About La Cheezy</h2>
+        <p style="margin-bottom:20px;color:#5C3D2E">
+          La Cheezy was born with one mission — to serve hot, fresh, and ridiculously cheesy
+          pizzas and fast food that makes you smile. We bake our own bread daily and use only
+          the freshest ingredients to create mouth-watering pizzas, juicy burgers, and delicious sides.
+        </p>
+        <p style="margin-bottom:24px;color:#5C3D2E">
+          Whether you're craving a classic Cheese Burst Pizza or a loaded Cheezy Paneer Pizza,
+          we promise every bite will be full of flavour.
+        </p>
+        <h3 style="font-family:var(--font-head);font-size:1.2rem;margin-bottom:4px">Our Promise</h3>
+        <ul class="promise-list">
+          <li>Freshly baked pizzas straight from the oven</li>
+          <li>Generous cheese in every item</li>
+          <li>Affordable prices</li>
+          <li>Fast delivery across Ganesh Nagar</li>
+        </ul>
+        <h3 style="font-family:var(--font-head);font-size:1.2rem;margin:20px 0 4px">Why Choose Us?</h3>
+        <ul class="why-list">
+          <li>Made with love in Ganesh Nagar</li>
+          <li>Hygienic kitchen</li>
+          <li>Student &amp; family-friendly pricing</li>
+          <li>Daily special offers</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="section">
+  <div class="container">
+    <span class="tag">Full Menu</span>
+    <h2 class="section-title">Our Menu</h2>
+    <p class="section-sub">All pizzas baked fresh to order. Veg options available on everything.</p>
+    <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+      <button class="tab-btn active" onclick="showTab('pizzas')"  role="tab" aria-selected="true">🍕 Pizzas</button>
+      <button class="tab-btn"        onclick="showTab('burgers')" role="tab" aria-selected="false">🍔 Burgers</button>
+      <button class="tab-btn"        onclick="showTab('combos')"  role="tab" aria-selected="false">🎉 Combos</button>
+    </div>
+
+    <!-- PIZZAS -->
+    <div id="tab-pizzas" class="menu-section active" role="tabpanel">
+      <article class="menu-card">
+        <img src="images/menu/cheese-pizza.jpg" alt="Cheese Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Cheese Pizza</h3><p class="menu-card-price">₹199</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/sweet-corn-pizza.jpg" alt="Sweet Corn Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Sweet Corn Pizza</h3><p class="menu-card-price">₹250</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/spicy-treat-pizza.jpg" alt="Spicy Treat Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Spicy Treat Pizza</h3><p class="menu-card-price">₹250</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/cheezy-paneer-pizza.jpg" alt="Cheezy Paneer Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Cheezy Paneer Pizza</h3><p class="menu-card-price">₹260</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/peri-peri-pizza.jpg" alt="Peri Peri Paneer Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Peri Peri Paneer Pizza</h3><p class="menu-card-price">₹260</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/paneer-onion-olive.jpg" alt="Paneer Onion Olive Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Paneer Onion Olive Pizza</h3><p class="menu-card-price">₹260</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/spicy-jalapeno-pizza.jpg" alt="Spicy Jalapeno Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Spicy Jalapeno Pizza</h3><p class="menu-card-price">₹260</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/cheese-burst-pizza.jpg" alt="Veg Cheese Burst Pizza – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Veg Cheese Burst</h3><p class="menu-card-price">₹280</p></div>
+      </article>
+    </div>
+
+    <!-- BURGERS -->
+    <div id="tab-burgers" class="menu-section" role="tabpanel">
+      <article class="menu-card">
+        <img src="images/menu/veg-burger.jpg" alt="Veg Burger – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Veg Burger</h3><p class="menu-card-price">₹80</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/cheese-burger.jpg" alt="Cheese Burger – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Cheese Burger</h3><p class="menu-card-price">₹100</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/paneer-burger.jpg" alt="Paneer Burger – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>Paneer Burger</h3><p class="menu-card-price">₹120</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/king-burger.jpg" alt="King Burger – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name"><span class="badge-veg" aria-label="Vegetarian"></span>King Burger</h3><p class="menu-card-price">₹130</p></div>
+      </article>
+    </div>
+
+    <!-- COMBOS -->
+    <div id="tab-combos" class="menu-section" role="tabpanel">
+      <article class="menu-card">
+        <img src="images/menu/veg-pizza-combo.jpg" alt="Veg Pizza Combo – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name">Veg Pizza Combo</h3><p class="menu-card-price">₹140</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/cheese-pizza-combo.jpg" alt="Cheese Pizza Combo – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name">Cheese Pizza Combo</h3><p class="menu-card-price">₹150</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/veg-burger-combo.jpg" alt="Veg Burger Combo – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name">Veg Burger Combo</h3><p class="menu-card-price">₹120</p></div>
+      </article>
+      <article class="menu-card">
+        <img src="images/menu/paneer-burger-combo.jpg" alt="Paneer Burger Combo – La Cheezy Ganesh Nagar" width="480" height="360" loading="lazy" />
+        <div class="menu-card-body"><h3 class="menu-card-name">Paneer Burger Combo</h3><p class="menu-card-price">₹160</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- OFFERS -->
+<section id="offers" class="section section-alt">
+  <div class="container">
+    <span class="tag">🔥 Hot Deals</span>
+    <h2 class="section-title">Hot Offers at La Cheezy Ganesh Nagar</h2>
+    <p class="section-sub">A new deal every day — come back often!</p>
+    <div class="deals-grid">
+      <article class="deal-card">
+        <p class="deal-day">Monday</p>
+        <p class="deal-desc">Spicy Treat Pizza + Veg Burger</p>
+        <p class="deal-price"><sup>₹</sup>189</p>
+        <div class="deal-popup"><p class="deal-popup-title">🔥 Monday Deal</p><ul class="deal-popup-items"><li><span>Spicy Treat Pizza 7"</span><span>₹250</span></li><li><span>Veg Burger</span><span>₹80</span></li></ul><p class="deal-popup-saving">You save ₹141 today!</p></div>
+      </article>
+      <article class="deal-card">
+        <p class="deal-day">Tuesday</p>
+        <p class="deal-desc">2 Veg Pizza 7"</p>
+        <p class="deal-price"><sup>₹</sup>120</p>
+        <div class="deal-popup"><p class="deal-popup-title">🍕 Tuesday Deal</p><ul class="deal-popup-items"><li><span>Veg Pizza 7" × 2</span><span>₹199×2</span></li></ul><p class="deal-popup-saving">You save ₹278 today!</p></div>
+      </article>
+      <article class="deal-card">
+        <p class="deal-day">Wednesday</p>
+        <p class="deal-desc">Veg Pizza 7"</p>
+        <p class="deal-price"><sup>₹</sup>180</p>
+        <div class="deal-popup"><p class="deal-popup-title">🍕 Wednesday Deal</p><ul class="deal-popup-items"><li><span>Veg Pizza 7"</span><span>₹199</span></li></ul><p class="deal-popup-saving">You save ₹19 today!</p></div>
+      </article>
+      <article class="deal-card">
+        <p class="deal-day">Thursday</p>
+        <p class="deal-desc">2 Veg King Burger</p>
+        <p class="deal-price"><sup>₹</sup>170</p>
+        <div class="deal-popup"><p class="deal-popup-title">👑 Thursday Deal</p><ul class="deal-popup-items"><li><span>King Burger × 2</span><span>₹130×2</span></li></ul><p class="deal-popup-saving">You save ₹90 today!</p></div>
+      </article>
+      <article class="deal-card">
+        <p class="deal-day">Friday</p>
+        <p class="deal-desc">2 Veg Delight 7"</p>
+        <p class="deal-price"><sup>₹</sup>240</p>
+        <div class="deal-popup"><p class="deal-popup-title">🎉 Friday Deal</p><ul class="deal-popup-items"><li><span>Veg Delight Pizza 7" × 2</span><span>₹250×2</span></li></ul><p class="deal-popup-saving">You save ₹260 today!</p></div>
+      </article>
+      <article class="deal-card">
+        <p class="deal-day">Saturday</p>
+        <p class="deal-desc">2 Veg Burger</p>
+        <p class="deal-price"><sup>₹</sup>120</p>
+        <div class="deal-popup"><p class="deal-popup-title">🍔 Saturday Deal</p><ul class="deal-popup-items"><li><span>Veg Burger × 2</span><span>₹80×2</span></li></ul><p class="deal-popup-saving">You save ₹40 today!</p></div>
+      </article>
+      <article class="deal-card">
+        <p class="deal-day">Sunday</p>
+        <p class="deal-desc">2 Veg Cheezy Special Pizza 7"</p>
+        <p class="deal-price"><sup>₹</sup>270</p>
+        <div class="deal-popup"><p class="deal-popup-title">🧀 Sunday Special</p><ul class="deal-popup-items"><li><span>Cheezy Special Pizza 7" × 2</span><span>₹260×2</span></li></ul><p class="deal-popup-saving">You save ₹250 today!</p></div>
+      </article>
+    </div>
+    <div class="combo-spotlight" role="complementary" aria-label="Sabkuch Khao Special Offer">
+      <div>
+        <p style="font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin-bottom:6px">🎉 Best Value Deal</p>
+        <p class="combo-title">Sabkuch Khao Offer</p>
+        <p class="combo-includes">Pizza + Burger + Fries + Garlic Bread + Cake + 2 Cold Drinks</p>
+        <a href="tel:8149204979" class="btn-call" style="margin-top:4px">📞 Order This Deal</a>
+      </div>
+      <div style="text-align:center">
+        <p style="font-size:.9rem;opacity:.7;margin-bottom:4px">All this for just</p>
+        <p class="combo-price">₹319</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <div class="container">
+    <span class="tag">Gallery</span>
+    <h2 class="section-title">From Our Kitchen to Your Heart</h2>
+    <p class="section-sub">Real food, real smiles — from Ganesh Nagar's cheesiest kitchen.</p>
+    <div class="gallery-grid" aria-label="Food gallery">
+      <figure class="gallery-item tall">
+        <img src="images/gallery/cheese-pull.jpg" alt="La Cheezy pizza with epic cheese pull – Ganesh Nagar" width="400" height="533" loading="lazy" />
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/gallery/burger-close.jpg" alt="Juicy burger close-up at La Cheezy Ganesh Nagar" width="400" height="400" loading="lazy" />
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/gallery/garlic-bread.jpg" alt="Freshly baked garlic bread at La Cheezy" width="400" height="400" loading="lazy" />
+      </figure>
+      <figure class="gallery-item wide">
+        <img src="images/gallery/combo-spread.jpg" alt="La Cheezy full combo meal spread – pizza, burger, fries and drinks" width="800" height="400" loading="lazy" />
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/gallery/outlet-interior.jpg" alt="La Cheezy restaurant interior – Ganesh Nagar" width="400" height="400" loading="lazy" />
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/gallery/chef-baking.jpg" alt="Chef baking fresh pizza at La Cheezy Ganesh Nagar" width="400" height="400" loading="lazy" />
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/gallery/happy-customers.jpg" alt="Happy customers enjoying food at La Cheezy Ganesh Nagar" width="400" height="400" loading="lazy" />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <span class="tag">Visit Us</span>
+    <h2 class="section-title">Visit Us or Order Now</h2>
+    <p class="section-sub">Walk in or call — we're ready for you every day.</p>
+    <div class="contact-grid">
+      <div>
+        <div class="info-card">
+          <address style="font-style:normal">
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">📍</div>
+              <div><p class="info-label">Address</p><p class="info-val">La Cheezy, opposite Ganesh Mandir,<br />Ganesh Nagar, Bopkhel, Pune, Maharashtra 411031</p></div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">📞</div>
+              <div><p class="info-label">Order / Delivery</p><p class="info-val"><a href="tel:8149204979" class="phone-link">8149204979</a> &nbsp;|&nbsp; <a href="tel:9975964979" class="phone-link">9975964979</a></p></div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">🕐</div>
+              <div><p class="info-label">Timings</p><p class="info-val">11:30 AM – 10:30 PM (All Days)</p></div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">🛵</div>
+              <div><p class="info-label">Free Delivery</p><p class="info-val">On orders above ₹300 within 3 km</p></div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon" aria-hidden="true">📸</div>
+              <div><p class="info-label">Instagram</p><p class="info-val"><a href="https://instagram.com/lacheezypizza" target="_blank" rel="noopener" style="color:var(--red)">@lacheezypizza</a></p></div>
+            </div>
+          </address>
+        </div>
+        <div class="services-row" aria-label="Services offered">
+          <span class="service-pill">🍽️ Dine-in</span>
+          <span class="service-pill">🥡 Takeaway</span>
+          <span class="service-pill">🛵 Home Delivery</span>
+        </div>
+      </div>
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.587923715031!2d73.8637585!3d18.5926077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c7959b3afe73%3A0x9a0c0beb3276181b!2sLa%20Cheezy!5e0!3m2!1sen!2sin!4v1779941176687!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          title="La Cheezy on Google Maps – Ganesh Nagar Pune"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-logo">La <span>Cheezy</span> 🍕</p>
+        <p class="footer-desc">Fresh pizza from the oven. We bake our own bread daily ❤️<br />Ganesh Nagar's favourite cheesy spot since day one.</p>
+        <a href="https://instagram.com/lacheezypizza" target="_blank" rel="noopener" class="social-link">📸 @lacheezypizza</a>
+      </div>
+      <nav aria-label="Footer quick links">
+        <p class="footer-col-title">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-col-title">Contact</p>
+        <p style="font-size:.9rem;margin-bottom:8px">
+          <a href="tel:8149204979" class="phone-link">📞 8149204979</a><br />
+          <a href="tel:9975964979" class="phone-link">📞 9975964979</a>
+        </p>
+        <p style="font-size:.85rem;opacity:.75">11:30 AM – 10:30 PM · All Days</p>
+        <p style="font-size:.85rem;opacity:.75;margin-top:6px">Ganesh Nagar, Pune, Maharashtra</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 La Cheezy, Ganesh Nagar. All rights reserved.</p>
+      <p>Made with 🧀 &amp; ❤️ in Ganesh Nagar</p>
+    </div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX OVERLAY -->
+<div class="lightbox-overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-labelledby="lbCaption" tabindex="-1">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lightbox-prev" id="lbPrev" aria-label="Previous">&#8592;</button>
+    <img src="" alt="" id="lbImg" />
+    <button class="lightbox-next" id="lbNext" aria-label="Next">&#8594;</button>
+    <p class="lightbox-caption" id="lbCaption"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
