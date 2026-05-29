@@ -166,7 +166,7 @@ nav {
 .nav-links a.active-link::after { width: 100%; }
 
 .nav-cta {
-  background: var(--red);
+  background: var(--orange);
   color: var(--white);
   font-weight: 800;
   font-size: 0.95rem;
